@@ -12,6 +12,7 @@ def main():
     reqd.add_argument('-t','--target',action='store',dest='tar',help='Keyword to find')
     
     args = parser.parse_args()
+    effect = effects()
     
     sys.exit(0)
     
