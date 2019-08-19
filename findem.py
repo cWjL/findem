@@ -6,6 +6,8 @@ import argparse
 def main():
     '''
     Do main stuff
+    
+    Check this out:  https://stackoverflow.com/a/2575779/4678883  Reverse DNS lookup using socket library
     '''
     parser = argparse.ArgumentParser()
     reqd = parser.add_argument_group('required arguments')
